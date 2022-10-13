@@ -1,0 +1,199 @@
+{
+    "codeResponse": "200",
+    "error": "",
+    "message": "OK : SUCCESSFULL_OPERATION",
+    "datas": [
+        {
+            "id": 2,
+            "code": "OBJET_VISITE",
+            "libelle": "Objet de la Visite",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 10,
+            "code": "MODIF_FICHE_CLIENT",
+            "libelle": "Modifications effectuées sur la Fiche Client",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 9,
+            "code": "NUM_COMPTE",
+            "libelle": "Numero de Compte",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 11,
+            "code": "NOM_CLIENT",
+            "libelle": "Nom du Client",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 12,
+            "code": "DATE",
+            "libelle": "Date",
+            "checked": false,
+            "typeInput": "DATE",
+            "actif": true
+        },
+        {
+            "id": 13,
+            "code": "LIEU",
+            "libelle": "Lieu",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 14,
+            "code": "CONT_RESOL",
+            "libelle": "Contenu et Résolutions",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 15,
+            "code": "COMMENT_APPEL",
+            "libelle": "Commentaires sur les appels",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 16,
+            "code": "COMMENT_CLIENT_RECU",
+            "libelle": "Commentaires sur les clients reçus",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 17,
+            "code": "INTITULE_COMPTE",
+            "libelle": "Intitulé du Compte",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 18,
+            "code": "ACT_POUR_REACTIVATION",
+            "libelle": "Actions entreprises pour la réactivation",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 19,
+            "code": "ACT_REGUL",
+            "libelle": "Actions entreprises pour la régularisation",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 20,
+            "code": "RAISON_CLOTUR_CPTE",
+            "libelle": "Raison clôture du compte",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 21,
+            "code": "NOM_PACK_VENDU",
+            "libelle": "Nom du Package Vendu",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 22,
+            "code": "NOM_PROD_SERV_VENDU",
+            "libelle": "Nom du Produit & service Vendu",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 25,
+            "code": "MONT_DOSSIER",
+            "libelle": "Montant par Dossier",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 26,
+            "code": "NATUR_RECLAM",
+            "libelle": "Nature Réclamations",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 28,
+            "code": "ACTIONS_ENTREP_RECLAM",
+            "libelle": "Actions entreprises suite à une réclamation",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 30,
+            "code": "INFO_REUNION_FORMAT_MISSI",
+            "libelle": "Informations Relatives à la Réunion/Formation/Missions",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 31,
+            "code": "HEURE_COMITE",
+            "libelle": "Heure du Comité",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 29,
+            "code": "SYNTH_RECLAM",
+            "libelle": "Synthèse de l'Incident",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        },
+        {
+            "id": 27,
+            "code": "DATE_DECIS_COMITE",
+            "libelle": "Date de Prise de Décision",
+            "checked": false,
+            "typeInput": "DATE",
+            "actif": false
+        },
+        {
+            "id": 23,
+            "code": "ACT_P_MAJ",
+            "libelle": "Actions Entreprises pour la mise à jour",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": false
+        },
+        {
+            "id": 24,
+            "code": "PROD_VENDU",
+            "libelle": "Nom du Produit Vendu",
+            "checked": false,
+            "typeInput": "TEXT",
+            "actif": true
+        }
+    ]
+}

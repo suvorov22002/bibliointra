@@ -1,0 +1,610 @@
+{
+    "codeResponse": "200",
+    "error": "",
+    "message": "OK : SUCCESSFULL_OPERATION",
+    "datas": [
+        {
+            "id": 15,
+            "reference": "R_01",
+            "libelle": "Contacts avec  la Clientèle",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 44,
+                    "reference": "R_01_1",
+                    "libelle": "Visites de Prospection",
+                    "categorieActivite": {
+                        "id": 15,
+                        "version": 0,
+                        "validFrom": "2021-10-20T08:10:23.889+00:00",
+                        "validTo": null,
+                        "reference": "R_01",
+                        "libelle": "Contacts avec  la Clientèle",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "OBJET_VISITE/NUM_COMPTE/MODIF_FICHE_CLIENT",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 45,
+                    "reference": "R_01_2",
+                    "libelle": "Visite de Fidelisation/ Rechauffement",
+                    "categorieActivite": {
+                        "id": 15,
+                        "version": 0,
+                        "validFrom": "2021-10-20T08:10:23.889+00:00",
+                        "validTo": null,
+                        "reference": "R_01",
+                        "libelle": "Contacts avec  la Clientèle",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "OBJET_VISITE/NUM_COMPTE/MODIF_FICHE_CLIENT",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 50,
+                    "reference": "R_01_3",
+                    "libelle": "Visite de Recouvrement",
+                    "categorieActivite": {
+                        "id": 15,
+                        "version": 0,
+                        "validFrom": "2021-10-20T08:10:23.889+00:00",
+                        "validTo": null,
+                        "reference": "R_01",
+                        "libelle": "Contacts avec  la Clientèle",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "OBJET_VISITE/NUM_COMPTE",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 51,
+                    "reference": "R_01_4",
+                    "libelle": "Nb d'Appels Téléphoniques (Recus/Emis)",
+                    "categorieActivite": {
+                        "id": 15,
+                        "version": 0,
+                        "validFrom": "2021-10-20T08:10:23.889+00:00",
+                        "validTo": null,
+                        "reference": "R_01",
+                        "libelle": "Contacts avec  la Clientèle",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "COMMENT_APPEL",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 52,
+                    "reference": "R_01_5",
+                    "libelle": "Nombre de Clients Recus",
+                    "categorieActivite": {
+                        "id": 15,
+                        "version": 0,
+                        "validFrom": "2021-10-20T08:10:23.889+00:00",
+                        "validTo": null,
+                        "reference": "R_01",
+                        "libelle": "Contacts avec  la Clientèle",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "COMMENT_CLIENT_RECU",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        },
+        {
+            "id": 16,
+            "reference": "R_02",
+            "libelle": "Entrée en Relation/Sortie de la Relation",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 53,
+                    "reference": "R_02_3",
+                    "libelle": "Modification Fiche Client",
+                    "categorieActivite": {
+                        "id": 16,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:03:10.886+00:00",
+                        "validTo": null,
+                        "reference": "R_02",
+                        "libelle": "Entrée en Relation/Sortie de la Relation",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "MODIF_FICHE_CLIENT/NUM_COMPTE/INTITULE_COMPTE",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 54,
+                    "reference": "R_02_1",
+                    "libelle": "Nouveaux Clients",
+                    "categorieActivite": {
+                        "id": 16,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:03:10.886+00:00",
+                        "validTo": null,
+                        "reference": "R_02",
+                        "libelle": "Entrée en Relation/Sortie de la Relation",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/ACT_P_MAJ",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 55,
+                    "reference": "R_02_2",
+                    "libelle": "Clients Réactivés",
+                    "categorieActivite": {
+                        "id": 16,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:03:10.886+00:00",
+                        "validTo": null,
+                        "reference": "R_02",
+                        "libelle": "Entrée en Relation/Sortie de la Relation",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/ACT_POUR_REACTIVATION",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 56,
+                    "reference": "R_02_4",
+                    "libelle": "Comptes en CPIO régularisés",
+                    "categorieActivite": {
+                        "id": 16,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:03:10.886+00:00",
+                        "validTo": null,
+                        "reference": "R_02",
+                        "libelle": "Entrée en Relation/Sortie de la Relation",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/ACT_POUR_REACTIVATION",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 57,
+                    "reference": "R_02_5",
+                    "libelle": "Comptes Clôturés",
+                    "categorieActivite": {
+                        "id": 16,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:03:10.886+00:00",
+                        "validTo": null,
+                        "reference": "R_02",
+                        "libelle": "Entrée en Relation/Sortie de la Relation",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/RAISON_CLOTUR_CPTE",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        },
+        {
+            "id": 17,
+            "reference": "R_03",
+            "libelle": "Vente des Produits et Services",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 58,
+                    "reference": "R_03_1",
+                    "libelle": "Packages",
+                    "categorieActivite": {
+                        "id": 17,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:21:47.212+00:00",
+                        "validTo": null,
+                        "reference": "R_03",
+                        "libelle": "Vente des Produits et Services",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/NOM_PACK_VENDU",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 59,
+                    "reference": "R_03_2",
+                    "libelle": "Produits Monétique",
+                    "categorieActivite": {
+                        "id": 17,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:21:47.212+00:00",
+                        "validTo": null,
+                        "reference": "R_03",
+                        "libelle": "Vente des Produits et Services",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/PROD_VENDU",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 60,
+                    "reference": "R_03_3",
+                    "libelle": "Produits Banque En Ligne",
+                    "categorieActivite": {
+                        "id": 17,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:21:47.212+00:00",
+                        "validTo": null,
+                        "reference": "R_03",
+                        "libelle": "Vente des Produits et Services",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/PROD_VENDU",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 61,
+                    "reference": "R_03_4",
+                    "libelle": "Produits Banque Digitale",
+                    "categorieActivite": {
+                        "id": 17,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:21:47.212+00:00",
+                        "validTo": null,
+                        "reference": "R_03",
+                        "libelle": "Vente des Produits et Services",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/PROD_VENDU",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 62,
+                    "reference": "R_03_5",
+                    "libelle": "Autres Produits & Services",
+                    "categorieActivite": {
+                        "id": 17,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:21:47.212+00:00",
+                        "validTo": null,
+                        "reference": "R_03",
+                        "libelle": "Vente des Produits et Services",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/NOM_PROD_SERV_VENDU",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        },
+        {
+            "id": 18,
+            "reference": "R_04",
+            "libelle": "Réemplois",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 63,
+                    "reference": "R_04_1",
+                    "libelle": "Crédits Programmes mis en place",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 64,
+                    "reference": "R_04_2",
+                    "libelle": "Nouveaux  Dossiers Présentés au Comité de Crédit",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/DATE/INTITULE_COMPTE/HEURE_COMITE",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 65,
+                    "reference": "R_04_3",
+                    "libelle": "Modification d'une Décision de Comité de Crédit",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/DATE/INTITULE_COMPTE/HEURE_COMITE",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 66,
+                    "reference": "R_04_4",
+                    "libelle": "Notes d'analyse Validées Par Circulation",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/DATE/INTITULE_COMPTE/HEURE_COMITE",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 67,
+                    "reference": "R_04_5",
+                    "libelle": "Crédits Classiques Mis en Place",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER/HEURE_COMITE/DATE_DECIS_COMITE",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 68,
+                    "reference": "R_04_6",
+                    "libelle": "Tirage des Lignes de Financement (SPOT, Escompte Traites, Avances sur Décomptes, etc.)",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 69,
+                    "reference": "R_04_7",
+                    "libelle": "Credit Leasing Mise en Force",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 70,
+                    "reference": "R_04_8",
+                    "libelle": "Crédit de Signature mis en place (ASF, Cautions, Aval Traites, CREDOC, etc.)",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 71,
+                    "reference": "R_04_9",
+                    "libelle": "Opération de Dépassements (Forçages) Validées",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 72,
+                    "reference": "R_04_10",
+                    "libelle": "Tombées des Crédits à Échéance Unique",
+                    "categorieActivite": {
+                        "id": 18,
+                        "version": 0,
+                        "validFrom": "2021-10-27T15:26:32.171+00:00",
+                        "validTo": null,
+                        "reference": "R_04",
+                        "libelle": "Réemplois",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/MONT_DOSSIER",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        },
+        {
+            "id": 19,
+            "reference": "R_05",
+            "libelle": "Réclamations Clientèles",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 74,
+                    "reference": "R_05_01",
+                    "libelle": "Réclamations Reçues",
+                    "categorieActivite": {
+                        "id": 19,
+                        "version": 0,
+                        "validFrom": "2021-10-27T16:06:41.424+00:00",
+                        "validTo": null,
+                        "reference": "R_05",
+                        "libelle": "Réclamations Clientèles",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/NATUR_RECLAM",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 75,
+                    "reference": "R_05_2",
+                    "libelle": "Réclamations Résolues",
+                    "categorieActivite": {
+                        "id": 19,
+                        "version": 0,
+                        "validFrom": "2021-10-27T16:06:41.424+00:00",
+                        "validTo": null,
+                        "reference": "R_05",
+                        "libelle": "Réclamations Clientèles",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/ACTIONS_ENTREP_RECLAM",
+                    "typeEvidences": null,
+                    "actif": true
+                },
+                {
+                    "id": 76,
+                    "reference": "R_05_3",
+                    "libelle": "Autres Sollicitations/Opérations Traitées",
+                    "categorieActivite": {
+                        "id": 19,
+                        "version": 0,
+                        "validFrom": "2021-10-27T16:06:41.424+00:00",
+                        "validTo": null,
+                        "reference": "R_05",
+                        "libelle": "Réclamations Clientèles",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "NUM_COMPTE/INTITULE_COMPTE/ACTIONS_ENTREP_RECLAM",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        },
+        {
+            "id": 20,
+            "reference": "R_06",
+            "libelle": "Incidents Déclarés",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 77,
+                    "reference": "R_06_1",
+                    "libelle": "Incidents Déclarés",
+                    "categorieActivite": {
+                        "id": 20,
+                        "version": 0,
+                        "validFrom": "2021-10-27T16:08:22.127+00:00",
+                        "validTo": null,
+                        "reference": "R_06",
+                        "libelle": "Incidents Déclarés",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "SYNTH_RECLAM",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        },
+        {
+            "id": 21,
+            "reference": "R_07",
+            "libelle": "Participation aux Reunions /Formations et Missions",
+            "profils": "GFC",
+            "activites": [
+                {
+                    "id": 78,
+                    "reference": "R_07_1",
+                    "libelle": "Réunions/Formations/Missions Effectuées",
+                    "categorieActivite": {
+                        "id": 21,
+                        "version": 0,
+                        "validFrom": "2021-10-27T16:09:24.447+00:00",
+                        "validTo": null,
+                        "reference": "R_07",
+                        "libelle": "Participation aux Reunions /Formations et Missions",
+                        "actif": false,
+                        "profils": "GFC"
+                    },
+                    "evidences": "INFO_REUNION_FORMAT_MISSI",
+                    "typeEvidences": null,
+                    "actif": true
+                }
+            ],
+            "actif": false
+        }
+    ]
+}
